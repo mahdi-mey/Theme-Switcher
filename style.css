@@ -1,5 +1,61 @@
+:root{
+    --body-bg: hsl(0 0% 90%);
+    --card-bg: rgb(255, 255, 255);
+    --text-clr: rgb(38, 38, 38);
+    --heading-clr: rgb(38, 38, 38);
+    --border-clr: hsl(0, 0%, 23%);
+    --radio-color: black;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: var(--body-bg);
+    color: var(--text-clr);
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.theme-selector > fieldset{
+    border: none;
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+    background-color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 0 0 1rem 1rem;
+    margin-inline: auto;
+}
+.theme-selector input[type='radio']{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    outline: 3px solid var(--radio-color);
+    outline-offset: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.theme-selector input[type='radio']:checked{
+    background-color: var(--radio-color);
+}
+#light{
+    --radio-color: gray;
+}
+#pink{
+    --radio-color: #ff49a7;
+}
+#blue{
+    --radio-color: blue;
+}
+#green{
+    --radio-color: green;
+}
+#dark{
+    --radio-color: #232323;
 }
