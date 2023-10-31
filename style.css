@@ -61,6 +61,18 @@ body{
     opacity: 0;
 }
 
+/* 
+.theme-selector::before{
+    content: "";
+    width: 15px;
+    aspect-ratio: 1;
+    background-color: red;
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 9 !important;
+} */
 
 .theme-selector > fieldset{
     border: none;
@@ -68,7 +80,7 @@ body{
     gap: 2rem;
     width: fit-content;
     background-color: #fff;
-    padding: 1rem 3rem;
+    padding: 1rem 1.2rem;
     margin-inline: auto;
 }
 .theme-selector input[type='radio']{
