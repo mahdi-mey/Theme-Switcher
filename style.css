@@ -1,6 +1,6 @@
 :root{
     --body-bg: hsl(0 0% 90%);
-    --card-bg: rgb(255, 255, 255);
+    --white-bg: rgb(255, 255, 255);
     --text-clr: rgb(38, 38, 38);
     --heading-clr: rgb(38, 38, 38);
     --border-clr: hsl(0, 0%, 23%);
@@ -16,6 +16,27 @@
 body{
     background-color: var(--body-bg);
     color: var(--text-clr);
+    font-family: sans-serif;
+}
+
+.nav .list-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: var(--white-bg);
+    /* gap: 1rem;
+    justify-content: center; */
+    
+    /* outline: 1px solid blue; */
+}
+
+.nav .list-container .list-item{
+    padding: 1rem;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+
+    /* outline: 1px solid red; */
 }
 
 .visually-hidden{
