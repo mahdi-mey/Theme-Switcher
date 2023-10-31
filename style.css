@@ -21,13 +21,11 @@ body{
 
 .nav .list-container{
     display: flex;
-    justify-content: space-evenly;
     
     background-color: var(--white-bg);
-    /* gap: 1rem;
-    justify-content: center; */
+    gap: 1rem;
+    justify-content: center;
     
-    /* outline: 1px solid blue; */
 }
 
 .nav .list-container .list-item{
@@ -36,12 +34,33 @@ body{
     list-style: none;
     cursor: pointer;
 
-    /* outline: 1px solid red; */
+}
+
+.theme-option{
+    position: relative;
+}
+
+.theme-option:hover .theme-selector{
+    opacity: 1;
 }
 
 .visually-hidden{
     display: none;
 }
+
+.theme-selector{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: 1px solid #00000052;
+    border-radius: 1rem;
+    overflow: hidden;
+    top: 80%;
+
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
 
 .theme-selector > fieldset{
     border: none;
@@ -50,7 +69,6 @@ body{
     width: fit-content;
     background-color: #fff;
     padding: 1rem 3rem;
-    border-radius: 0 0 1rem 1rem;
     margin-inline: auto;
 }
 .theme-selector input[type='radio']{

@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Select Theme</title>
     <!-- custom css -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="nav">
-        <ul class="list-container">
-            <li class="list-item">Home</li>
-            <li class="list-item">About</li>
-            <li class="list-item">Blog</li>
-            <li class="list-item theme-option">Theme</li>
-        </ul>
+      <ul class="list-container">
+        <li class="list-item">Home</li>
+        <li class="list-item">About</li>
+        <li class="list-item">Blog</li>
+        <li class="list-item theme-option">
+            Theme
+            <form action="" class="theme-selector">
+                <fieldset>
+
+                    <legend class="visually-hidden">Pick a color scheme</legend>
+                    <input type="radio" name="theme" id="light" checked>
+                    
+                    <input type="radio" name="theme" id="pink">
+
+                    <input type="radio" name="theme" id="blue">
+
+                    <input type="radio" name="theme" id="green">
+
+                    <input type="radio" name="theme" id="dark">
+
+                </fieldset>
+            </form>
+        </li>
+      </ul>
     </nav>
-
-    <!-- <form action="" class="theme-selector">
-        <fieldset>
-
-            <legend class="visually-hidden">Pick a color scheme</legend>
-            <input type="radio" name="theme" id="light" checked>
-            
-            <input type="radio" name="theme" id="pink">
-
-            <input type="radio" name="theme" id="blue">
-
-            <input type="radio" name="theme" id="green">
-
-            <input type="radio" name="theme" id="dark">
-
-        </fieldset>
-    </form> -->
-    
-</body>
+  </body>
 </html>
