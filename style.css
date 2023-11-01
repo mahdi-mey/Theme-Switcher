@@ -42,6 +42,7 @@ nav.nav{
 
 .theme-option{
     position: relative;
+    /* z-index: ; */
 }
 
 .theme-option:hover .theme-selector{
@@ -57,7 +58,7 @@ nav.nav{
     left: 50%;
     transform: translateX(-50%);
     outline: 1px solid #00000052;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     overflow: hidden;
     top: 80%;
 
@@ -65,18 +66,6 @@ nav.nav{
     opacity: 0;
 }
 
-/* 
-.theme-selector::before{
-    content: "";
-    width: 15px;
-    aspect-ratio: 1;
-    background-color: red;
-    position: absolute;
-    top: -7px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    z-index: 9 !important;
-} */
 
 .theme-selector > fieldset{
     border: none;
@@ -90,8 +79,6 @@ nav.nav{
 .theme-selector input[type='radio']{
     appearance: none;
     width: clamp(0.5rem , 1vw, 2rem);
-    /* width: 1rem; */
-    /* height: 1rem; */
     aspect-ratio: 1;
     outline: 3px solid var(--radio-color);
     outline-offset: 3px;
@@ -115,4 +102,16 @@ nav.nav{
 }
 #dark{
     --radio-color: #232323;
+}
+
+/* for small devices */
+@media only screen and (max-width: 600px) {
+    .theme-selector > fieldset{
+        gap: 1.2rem;
+        padding: 0.8rem 1rem;
+    }
+    .theme-selector input[type='radio']{
+        outline: 2px solid var(--radio-color);
+        outline-offset: 1px;
+    }
 }
