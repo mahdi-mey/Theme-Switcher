@@ -61,6 +61,7 @@ nav.nav{
     border-radius: 1.5rem;
     overflow: hidden;
     top: 80%;
+    cursor: default;
 
     transition: all 0.4s ease;
     opacity: 0;
@@ -78,7 +79,7 @@ nav.nav{
 }
 .theme-selector input[type='radio']{
     appearance: none;
-    width: clamp(0.5rem , 1vw, 2rem);
+    width: clamp(0.7rem , 1vw, 2rem);
     aspect-ratio: 1;
     outline: 3px solid var(--radio-color);
     outline-offset: 3px;
