@@ -43,6 +43,10 @@ nav.nav{
     cursor: pointer;
 }
 
+.nav .list-container .list-item:nth-child(1){
+    background-color: red;
+    color: var(--white-bg);
+}
 
 .theme-option{
     position: relative;
