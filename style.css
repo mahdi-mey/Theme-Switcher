@@ -21,6 +21,10 @@ body{
 }
 nav.nav{
     width: 100vw;
+    box-shadow: 0px 5px 13px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 13px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 13px 2px rgba(0,0,0,0.75);
+    z-index: 99;
 }
 
 .nav .list-container{
@@ -37,12 +41,11 @@ nav.nav{
     text-align: center;
     list-style: none;
     cursor: pointer;
-
 }
+
 
 .theme-option{
     position: relative;
-    /* z-index: ; */
 }
 
 .theme-option:hover .theme-selector{
@@ -104,6 +107,17 @@ nav.nav{
 #dark{
     --radio-color: #232323;
 }
+
+header{
+    height: 50vh;
+    background-color: var(--white-bg);
+    display: flex;
+    align-items: center;
+    place-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 
 /* for small devices */
 @media only screen and (max-width: 600px) {
