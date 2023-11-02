@@ -44,7 +44,7 @@ nav.nav{
 }
 
 .nav .list-container .list-item:nth-child(1){
-    background-color: red;
+    background-color: rgb(15, 81, 161);
     color: var(--white-bg);
 }
 
