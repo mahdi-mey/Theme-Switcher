@@ -1,5 +1,5 @@
 :root{
-    --body-bg: hsl(0 0% 90%);
+    --body-bg: hsl(0, 0%, 95%);
     --white-bg: rgb(255, 255, 255);
     --text-clr: rgb(38, 38, 38);
     --heading-clr: rgb(38, 38, 38);
@@ -17,7 +17,7 @@ body{
     background-color: var(--body-bg);
     color: var(--text-clr);
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     font-weight: normal;
 }
 nav.nav{
@@ -133,6 +133,55 @@ header p{
     font-family: 'Courier New', Courier, monospace;
 }
 
+section > h2{
+    text-align: center;
+    margin-block: 3rem;
+}
+
+.product-contaniner{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.product-card{
+    background-color: #fff;
+    width: 300px;
+    /* outline: 1px solid red; */
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-card hr {
+    border: 1px solid #dfdfdf   ;
+}
+
+.product-card p{
+    color: #757575;
+}
+
+.product-card h5{
+    color: #353535;
+}
+
+.card-price-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-card button{
+    padding: 5px 15px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #29ca8e;
+    color: #fff;
+
+}
+
 /* for small devices */
 @media only screen and (max-width: 600px) {
     .theme-selector > fieldset{
@@ -143,4 +192,9 @@ header p{
         outline: 2px solid var(--radio-color);
         outline-offset: 1px;
     }
+}
+
+
+main.main{
+    height: 100vh;
 }
