@@ -120,8 +120,15 @@ header{
     place-content: center;
     flex-direction: column;
     gap: 1rem;
+    font-family: cursive;
 }
-
+header h1{
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: normal;
+}
+header p{
+    font-size: clamp(1.5rem, 1vw, 3.5rem);
+}
 
 /* for small devices */
 @media only screen and (max-width: 600px) {
