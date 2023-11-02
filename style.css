@@ -18,6 +18,7 @@ body{
     color: var(--text-clr);
     font-family: sans-serif;
     overflow: hidden;
+    font-weight: normal;
 }
 nav.nav{
     width: 100vw;
