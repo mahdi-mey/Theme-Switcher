@@ -141,6 +141,7 @@ section > h2{
 .product-contaniner{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3px;
 }
 
