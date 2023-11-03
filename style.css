@@ -3,8 +3,9 @@
     --white-bg: rgb(255, 255, 255);
     --text-clr: rgb(38, 38, 38);
     --heading-clr: rgb(38, 38, 38);
-    --border-clr: hsl(0, 0%, 23%);
+    --border-clr: hsla(0, 0%, 23%, 0.323);
     --radio-color: black;
+    --hr-clr: #dfdfdf;
 }
 
 *{
@@ -81,7 +82,7 @@ nav.nav{
     display: flex;
     gap: 2rem;
     width: fit-content;
-    background-color: #fff;
+    background-color: var(--white-bg);
     padding: 1rem 1.2rem;
     margin-inline: auto;
 }
@@ -143,10 +144,12 @@ section > h2{
     justify-content: center;
     flex-wrap: wrap;
     gap: 3px;
+    margin-bottom: 3rem;
 }
 
 .product-card{
-    background-color: #fff;
+    background-color: var(--white-bg);
+    border: 2px solid var(--border-clr);
     width: 300px;
     padding: 2rem 1rem;
     display: flex;
@@ -155,7 +158,7 @@ section > h2{
 }
 
 .product-card hr {
-    border: 1px solid #dfdfdf   ;
+    border: 1px solid var(--hr-clr);
 }
 
 .product-card p{
@@ -178,7 +181,7 @@ section > h2{
     border: none;
     outline: none;
     background-color: #29ca8e;
-    color: #fff;
+    color: var(--white-bg);
     cursor: pointer;
 }
 
@@ -192,4 +195,13 @@ section > h2{
         outline: 2px solid var(--radio-color);
         outline-offset: 1px;
     }
+}
+body.pinkTheme{
+    --body-bg: hsl(0, 100%, 95%);
+    --white-bg: hsl(0, 87%, 91%);
+    --text-clr: rgb(38, 38, 38);
+    --heading-clr: rgb(38, 38, 38);
+    --border-clr: hsl(343, 51%, 61%);
+    --radio-color: black;
+    --hr-clr: #fff;
 }
