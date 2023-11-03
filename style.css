@@ -114,7 +114,7 @@ nav.nav{
 }
 
 header{
-    height: 50vh;
+    height: 35vh;
     background-color: var(--white-bg);
     display: flex;
     align-items: center;
@@ -148,7 +148,6 @@ section > h2{
 .product-card{
     background-color: #fff;
     width: 300px;
-    /* outline: 1px solid red; */
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
@@ -174,13 +173,13 @@ section > h2{
 }
 
 .product-card button{
-    padding: 5px 15px ;
-    border-radius: 10px;
+    padding: 10px 18px ;
+    border-radius: 15px;
     border: none;
     outline: none;
     background-color: #29ca8e;
     color: #fff;
-
+    cursor: pointer;
 }
 
 /* for small devices */
