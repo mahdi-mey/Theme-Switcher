@@ -1,3 +1,7 @@
-document.querySelector('#pink').addEventListener('click', function (){
-    document.body.className = 'pinkTheme' 
+const themeOptions = document.querySelectorAll('.theme-selector input[type="radio"]')
+
+themeOptions.forEach(themeBtn => {
+    themeBtn.addEventListener('click', (e) => {
+        document.body.className = e.target.dataset.theme 
+    })
 })
