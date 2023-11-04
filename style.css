@@ -80,7 +80,7 @@ nav.nav{
     display: flex;
     gap: 2rem;
     width: fit-content;
-    background-color: var(--white-bg);
+    background-color: var(--body-bg);
     padding: 1rem 1.2rem;
     margin-inline: auto;
 }
@@ -234,4 +234,9 @@ body.darkTheme{
     --radio-color: black;
     --button-bg-clr: hsl(227, 57%, 56%);
     --hr-clr: #fff;
+
+    /* .theme-selector > fieldset{
+        background-color: #292929;
+    }     */
+
 }
