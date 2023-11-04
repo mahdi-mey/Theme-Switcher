@@ -225,3 +225,13 @@ body.greenTheme{
     --button-bg-clr: hsl(105, 70%, 36%);
     --hr-clr: #fff;
 }
+body.darkTheme{
+    --body-bg: #282828;
+    --white-bg: #1f1f1f;
+    --main-text-clr: hsl(0, 3%, 77%);
+    --secondary-text-clr: hsl(0, 0%, 69%);
+    --border-clr: hsl(0, 0%, 30%);
+    --radio-color: black;
+    --button-bg-clr: hsl(227, 57%, 56%);
+    --hr-clr: #fff;
+}
