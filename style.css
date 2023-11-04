@@ -214,5 +214,14 @@ body.blueTheme{
     --radio-color: black;
     --button-bg-clr: hsl(236, 100%, 59%);
     --hr-clr: #fff;
-
+}
+body.greenTheme{
+    --body-bg: hsl(120, 100%, 95%);
+    --white-bg: hsl(120, 87%, 91%);
+    --main-text-clr: rgb(38, 38, 38);
+    --secondary-text-clr: hsl(117, 25%, 48%);
+    --border-clr: hsl(115, 51%, 61%);
+    --radio-color: black;
+    --button-bg-clr: hsl(105, 70%, 36%);
+    --hr-clr: #fff;
 }
