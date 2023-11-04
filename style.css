@@ -202,6 +202,17 @@ body.pinkTheme{
     --secondary-text-clr: hsl(0, 25%, 48%);
     --border-clr: hsl(343, 51%, 61%);
     --radio-color: black;
-    --button-bg-clr: #FF9130;
+    --button-bg-clr: hsl(28, 100%, 59%);
     --hr-clr: #fff;
+}
+body.blueTheme{
+    --body-bg: hsl(250, 100%, 95%);
+    --white-bg: hsl(250, 87%, 91%);
+    --main-text-clr: rgb(38, 38, 38);
+    --secondary-text-clr: hsl(232, 25%, 48%);
+    --border-clr: hsl(250, 51%, 61%);
+    --radio-color: black;
+    --button-bg-clr: hsl(236, 100%, 59%);
+    --hr-clr: #fff;
+
 }
