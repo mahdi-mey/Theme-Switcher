@@ -5,6 +5,7 @@
     --secondary-text-clr: #757575;
     --border-clr: hsla(0, 0%, 23%, 0.323);
     --radio-color: black;
+    --button-bg-clr: #29ca8e;
     --hr-clr: #dfdfdf;
 }
 
@@ -178,7 +179,7 @@ section > h2{
     border-radius: 15px;
     border: none;
     outline: none;
-    background-color: #29ca8e;
+    background-color: var(--button-bg-clr);
     color: var(--white-bg);
     cursor: pointer;
 }
@@ -201,5 +202,6 @@ body.pinkTheme{
     --secondary-text-clr: hsl(0, 25%, 48%);
     --border-clr: hsl(343, 51%, 61%);
     --radio-color: black;
+    --button-bg-clr: #FF9130;
     --hr-clr: #fff;
 }
