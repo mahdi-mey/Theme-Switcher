@@ -201,7 +201,6 @@ body.pink{
     --main-text-clr: rgb(38, 38, 38);
     --secondary-text-clr: hsl(0, 25%, 48%);
     --border-clr: hsl(343, 51%, 61%);
-    --radio-color: black;
     --button-bg-clr: hsl(28, 100%, 59%);
     --hr-clr: #fff;
 }
@@ -211,7 +210,6 @@ body.blue{
     --main-text-clr: rgb(38, 38, 38);
     --secondary-text-clr: hsl(232, 25%, 48%);
     --border-clr: hsl(250, 51%, 61%);
-    --radio-color: black;
     --button-bg-clr: hsl(236, 100%, 59%);
     --hr-clr: #fff;
 }
@@ -221,7 +219,6 @@ body.green{
     --main-text-clr: rgb(38, 38, 38);
     --secondary-text-clr: hsl(117, 25%, 48%);
     --border-clr: hsl(115, 51%, 61%);
-    --radio-color: black;
     --button-bg-clr: hsl(105, 70%, 36%);
     --hr-clr: #fff;
 }
@@ -231,7 +228,6 @@ body.dark{
     --main-text-clr: hsl(0, 3%, 77%);
     --secondary-text-clr: hsl(0, 0%, 69%);
     --border-clr: hsl(0, 0%, 30%);
-    --radio-color: black;
     --button-bg-clr: hsl(227, 57%, 56%);
     --hr-clr: #fff;
 }
