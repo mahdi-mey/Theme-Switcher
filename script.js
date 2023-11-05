@@ -11,5 +11,10 @@ themeOptions.forEach(themeBtn => {
 })
 
 function saveThemeInLocalStorage(bodyTheme){
-    localStorage.setItem('theme_color', bodyTheme)
+    localStorage.setItem('theme', bodyTheme)
 }
+
+window.addEventListener('load', () => {
+    let storedTheme = localStorage.getItem('theme')
+    document.body.className = storedTheme;
+})
