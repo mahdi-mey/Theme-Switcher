@@ -17,4 +17,5 @@ function saveThemeInLocalStorage(bodyTheme){
 window.addEventListener('load', () => {
     let storedTheme = localStorage.getItem('theme')
     document.body.className = storedTheme;
+    document.querySelector(`#${storedTheme}`).checked = true;
 })
