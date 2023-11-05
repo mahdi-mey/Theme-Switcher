@@ -2,6 +2,14 @@ const themeOptions = document.querySelectorAll('.theme-selector input[type="radi
 
 themeOptions.forEach(themeBtn => {
     themeBtn.addEventListener('click', (e) => {
-        document.body.className = e.target.dataset.theme 
+        let dataTheme = e.target.dataset.theme
+
+        document.body.className = dataTheme 
+
+        saveThemeInLocalStorage(dataTheme)
     })
 })
+
+function saveThemeInLocalStorage(bodyTheme){
+    localStorage.setItem('theme_color', bodyTheme)
+}
