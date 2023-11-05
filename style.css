@@ -195,7 +195,7 @@ section > h2{
         outline-offset: 1px;
     }
 }
-body.pinkTheme{
+body.pink{
     --body-bg: hsl(0, 100%, 95%);
     --white-bg: hsl(0, 87%, 91%);
     --main-text-clr: rgb(38, 38, 38);
@@ -205,7 +205,7 @@ body.pinkTheme{
     --button-bg-clr: hsl(28, 100%, 59%);
     --hr-clr: #fff;
 }
-body.blueTheme{
+body.blue{
     --body-bg: hsl(250, 100%, 95%);
     --white-bg: hsl(250, 87%, 91%);
     --main-text-clr: rgb(38, 38, 38);
@@ -215,7 +215,7 @@ body.blueTheme{
     --button-bg-clr: hsl(236, 100%, 59%);
     --hr-clr: #fff;
 }
-body.greenTheme{
+body.green{
     --body-bg: hsl(120, 100%, 95%);
     --white-bg: hsl(120, 87%, 91%);
     --main-text-clr: rgb(38, 38, 38);
@@ -225,7 +225,7 @@ body.greenTheme{
     --button-bg-clr: hsl(105, 70%, 36%);
     --hr-clr: #fff;
 }
-body.darkTheme{
+body.dark{
     --body-bg: #282828;
     --white-bg: #1f1f1f;
     --main-text-clr: hsl(0, 3%, 77%);
@@ -234,9 +234,4 @@ body.darkTheme{
     --radio-color: black;
     --button-bg-clr: hsl(227, 57%, 56%);
     --hr-clr: #fff;
-
-    /* .theme-selector > fieldset{
-        background-color: #292929;
-    }     */
-
 }
